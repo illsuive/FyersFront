@@ -126,7 +126,7 @@ function App() {
       {sortedRows.length === 0 && (
         <div style={{ padding: "10px", backgroundColor: "#fff3cd", border: "1px solid #ffeeba" }}>
           <p>Waiting for data... Ensure you have logged in via the backend.</p>
-          <a href="http://localhost:4000/api/fyers/login" target="_blank" rel="noreferrer">
+          <a href="https://fyersbackend.onrender.com/api/fyers/login" target="_blank" rel="noreferrer">
             Click here to Login to Fyers
           </a>
         </div>
